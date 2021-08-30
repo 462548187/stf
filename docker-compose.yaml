@@ -10,7 +10,7 @@ rethinkdb:
 adbd:
  container_name: adbd
   build: .
-#  image: devicefarmer/stf:latest
+#  image: devicefarmer/adb:latest
   privileged: true
   ports:
     - "5037:5037"
